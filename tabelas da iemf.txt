@@ -1,0 +1,63 @@
+
+//************* CRIAÇÃO BANCO DE DADOS) ********************//
+
+CREATE DATABASE iemf;
+
+
+//************* CRIAÇÃO E INSERT (TAB_IGREJAS) ********************//
+
+CREATE TABLE igrejas ()
+	id_igreja int not null PRIMARY KEY AUTO_INCREMENT,
+	situacao varchar(7) not null,
+	setor varchar(50) not null,
+	resp_setor varchar(50) not null,
+	telefone1 varchar(20),
+	telefone2 varchar(20),
+	logradouro varchar(100) not null,
+	numero int,
+	cep int,
+	bairro varchar(50),
+	cidade varchar(50),
+	estado char(2),
+	apelido varchar(30) not null,
+	dirigente1 varchar(50) not null,
+	esposa_dirigente1 varchar(50),
+	dirigente2 varchar(50),
+	esposa_dirigente2 varchar(50),
+	secretario1 varchar(50),
+	secretario2 varchar(50),
+	tesoureiro1 varchar(50),
+	tesoureiro2 varchar(50)
+);
+
+//***********************************************************************//
+
+
+Preencha com qlq dado.....vai cadastrar normal.
+
+Você vai ver que no campo Responsavel Setor é obrigatorio
+
+e no campo 1º Dirigente tambem.
+
+pode colocar o mesmo nome repetido em todos campos .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
